@@ -36,3 +36,10 @@ x.App {
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: url('./Images/leafBackground.jpg');
+
+}
+
+
