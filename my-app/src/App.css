@@ -39,7 +39,11 @@ x.App {
 
 body {
   background-image: url('./Images/leafBackground.jpg');
-
+  background-position-x: center;
+  background-size: 100%;
+  background-position-y:40%;
 }
+
+
 
 

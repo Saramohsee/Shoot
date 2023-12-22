@@ -4,7 +4,7 @@ import Form from '../Components/Form';
 export default function Home () {
 
     return (
-        <div>
+        <div className='home'>
             <Form>
         
             </Form>
