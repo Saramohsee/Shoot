@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
-
 import Style from './Form.module.css';
+import redirectToPage from './Affiliate';
+
 
 function Form () {
+  
     const [email, setEmail] = useState('');
     const handleSubmit = async (e) => {
         e.preventDefault()
@@ -25,7 +27,9 @@ function Form () {
           />
         </label>
         <div className='buttonDiv'>
-        <button type="submit" className='button'>Continue</button>
+          
+        <button type="submit" className='button' onClick={redirectToPage()}>Continue</button>
+        
         </div>
       </form>  
     );
