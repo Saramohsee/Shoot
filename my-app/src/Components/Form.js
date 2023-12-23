@@ -12,19 +12,21 @@ function Form () {
           };
 
     return (    
-        <form onSubmit={handleSubmit}>
-            <h1>Just one last step.</h1>
+        <form onSubmit={handleSubmit} className='Form'>
+            <h1 className='formTitle'>Just one last step.</h1>
         <label>
-          Email:
-          <input
+         <input 
+            className='emailInput'
             type="email"
             value={email}
             onChange={handleEmailChange}
-            placeholder="Email"
+            placeholder="Your Email"
             required
           />
         </label>
-        <button type="submit">Submit</button>
+        <div className='buttonDiv'>
+        <button type="submit" className='button'>Continue</button>
+        </div>
       </form>  
     );
 };
