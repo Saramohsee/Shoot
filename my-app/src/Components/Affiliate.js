@@ -1,7 +1,7 @@
 import React from "react";
 
 const redirectToPage= () => {
-    window.location.href = ' https://hop.clickbank.net/?affiliate=saramohsen&vendor=puraclick&pg=news';
+    window.location.href = 'https://www.instagram.com/';
   };
 
   export default redirectToPage;
