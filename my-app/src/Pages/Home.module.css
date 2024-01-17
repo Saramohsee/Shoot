@@ -1,0 +1,12 @@
+
+
+ .home {
+background-image: url('../Images/palmBackground.jpg');
+text-align: center;
+background-position-x: center;
+background-size: 100%;
+background-position-y:45%;
+position: relative;
+z-index: 1;
+};
+
