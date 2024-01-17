@@ -6,9 +6,7 @@ export default function Quiz () {
     return (
         <div>
             <Header></Header>
-        
             <h1 className="quizTitle">Skin Care Quiz</h1>
-        
         </div>
     )
 };
