@@ -4,7 +4,7 @@ import style from "./Header.module.css"
 export default function Header () {
     return (
       
-           <div className="headerNav">
+           <header className="headerNav">
                 <div className="logo">
                     <img 
                     src={require("../Images/YG - logo.jpg")} alt='Logo'
@@ -20,7 +20,7 @@ export default function Header () {
                     </ul>
 
                 
-            </div> 
+            </header> 
        
     )
 };

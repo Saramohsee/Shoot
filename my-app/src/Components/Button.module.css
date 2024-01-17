@@ -1,0 +1,12 @@
+.button {
+    border-radius: 30px;
+    color:white;
+    background-color:#184933 ;
+    border-color: black;
+    font-size: medium;
+    width: 50%;
+    height: 40px;
+    font-family: 'Nunito Sans';
+    font-weight:bold;
+    border: none;
+}

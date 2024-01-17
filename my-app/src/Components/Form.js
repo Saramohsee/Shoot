@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import Style from './Form.module.css';
 import redirectToPage from './Affiliate';
+import Button from './Button';
+import buttonStyle from './Button.module.css';
 
 const getEmail = async (email) => {
   try {
@@ -52,7 +54,7 @@ function Form () {
         </label>
         <div className='buttonDiv'>
           
-        <button type="submit" className='button'>Continue</button>
+        <Button type="submit" className={buttonStyle.button}>Continue</Button>
         
         </div>
       </form>  

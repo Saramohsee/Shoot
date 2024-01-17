@@ -1,10 +1,14 @@
 import React from "react";
-import style form "./Input.module.css"
+import style from "./Input.module.css";
 
 export default function Input () {
     return (
-        <Input>
-        <div> </div>
-        </Input>
+        <input
+        className={style.input}
+        type="text"
+        autoComplete="true"
+        /> 
+        
+       
     )
 }
