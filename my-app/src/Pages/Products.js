@@ -6,11 +6,11 @@ export default function Products() {
     return (
         <div>
         <Header></Header>
-        <Products>
+    
             <div> 
                 <h1>products page</h1>
             </div>
-        </Products>
+    
         </div>
     )
 }

@@ -3,25 +3,25 @@ import style from "./Header.module.css"
 
 export default function Header () {
     return (
-        <Header> 
+      
            <div className="headerNav">
                 <div className="logo">
                     <img 
-                    src="../Images/YG - logo.jpg"
-                    alt="logo"
+                    src={require("../Images/YG - logo.jpg")} alt='Logo'
+        
                     />
                 </div>
                     
                     <ul className="headerButtons">
-                        <li className="quiz-nav">Quiz</li>
-                        <li className="blog-nav">Blog</li>
-                        <li className="glowing-products-nav">Glowing Products</li>
+                        <li className={style.quizNav}>Quiz</li>
+                        <li className="blogNav">Blog</li>
+                        <li className="glowingProductsNav">Glowing Products</li>
 
                     </ul>
 
                 
             </div> 
-        </Header>
+       
     )
 };
 

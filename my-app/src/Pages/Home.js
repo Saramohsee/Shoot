@@ -8,9 +8,9 @@ export default function Home () {
 
     return (
         <div className='home'>
-         <Header></Header>   
+       
             <h1>HomePage</h1>
-
+            <Header/>
         </div>
     )
 
