@@ -1,6 +1,47 @@
 
 
+.Form {
+    color: black;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    background-color: white;
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-bottom: 3%;
+    padding-top: 0.09%;
+    border-radius: 30px;
+    color: black;
+    font-family: 'Nunito Sans';
+    display: block;
+   
+  }
 
+  .formTitle {
+    position:relative;
+  text-align: center;
+  letter-spacing: 1.5px;
+  }
+
+  
+.emailInput {
+    margin-bottom: 10%;
+    border-radius: 30px;
+    width: 75%;
+    height: 40px;
+    background-color:#DADADA;
+    border: none;
+    
+    
+    
+    }
+
+  ::placeholder {
+    text-align: center;
+    font-family:'Nunito Sans';
+    
+   }
 
 
 

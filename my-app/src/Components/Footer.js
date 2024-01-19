@@ -1,4 +1,4 @@
-import style from './Footer.module.css'
+import Style from './Footer.module.css'
 import {Link} from 'react-router-dom'
 
 function Footer () {
@@ -8,10 +8,10 @@ function Footer () {
         <footer>
             <div>
                <Link to='/'>
-              <h1 className='logo' id='your'>
+              <h1 className={Style.logo} id={Style.your}>
               YOUR 
               </h1>
-              <h1 className='logo' id='GLOWING'>
+              <h1 className={Style.logo} id={Style.GLOWING}>
                 GLOWING
               </h1>
 

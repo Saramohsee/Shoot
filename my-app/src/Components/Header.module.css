@@ -1,3 +1,63 @@
-.quizNav {
-    color: purple;
+* {
+   
 }
+
+.header {
+position: absolute;
+background-color: aqua;
+display:inline-block;
+justify-content:space-around;
+align-items: center;
+font-size: medium;
+gap:10%;
+border-radius: 20px;
+height:100px;
+width: 75%;
+box-shadow: 0 0 10px 0 #000;
+z-index: 1;
+}
+
+.logo {
+ position: absolute;
+  transform:scale(0.4);
+  margin:0;
+  display: inline-block;
+  z-index: 2;
+  margin-right: 200%;
+
+    
+}
+
+.headerButtons {
+    background-color: orange;
+    position: absolute;
+    font-family: 'Nunito Sans';
+    font-size: 175%;
+    font-weight: 400;
+    list-style-type: none;
+    width:auto;
+    z-index: 2;
+    border-radius: 40px;
+}
+
+.quizNav {
+    position: absolute;
+    background-color: pink;
+    display:inline-block;
+    padding: 40px 20px;
+}
+.blogNav {
+    position: absolute;
+    background-color: pink;
+    display:inline-block;
+    padding: 40px 20px;
+}
+.glowingProducts {
+    position:absolute;
+    margin-top: 100px;
+    margin-right:100px;
+    display:inline-block;
+    padding: 40px 20px;
+    
+}
+

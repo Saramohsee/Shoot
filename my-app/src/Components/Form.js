@@ -4,6 +4,7 @@ import redirectToPage from './Affiliate';
 import Button from './Button';
 import buttonStyle from './Button.module.css';
 
+
 const getEmail = async (email) => {
   try {
    const response = await fetch('http://localhost:3001/getemail', {
@@ -40,11 +41,11 @@ function Form () {
           };
 
     return (    
-        <form onSubmit={handleSubmit} className='Form'>
-            <h1 className='formTitle'>Just one last step.</h1>
+        <form onSubmit={handleSubmit} className={Form.css}>
+            <h1 className={Style.formTitle}>Just one last step.</h1>
         <label>
          <input 
-            className='emailInput'
+            className={Style.emailInput}
             type="email"
             value={email}
             onChange={handleEmailChange}

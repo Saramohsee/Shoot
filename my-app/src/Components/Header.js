@@ -1,23 +1,26 @@
 import React from "react";
-import style from "./Header.module.css"
+import Style from "./Header.module.css"
 
 export default function Header () {
     return (
       
-           <header className="headerNav">
-                <div className="logo">
+           <header className={Style.header}>
+            
                     <img 
-                    src={require("../Images/YG - logo.jpg")} alt='Logo'
-        
+                    className={Style.logo}
+                    src={require("../Images/YG - logo.png")} 
+                    alt='Logo'
                     />
-                </div>
-                    
-                    <ul className="headerButtons">
-                        <li className={style.quizNav}>Quiz</li>
-                        <li className="blogNav">Blog</li>
-                        <li className="glowingProductsNav">Glowing Products</li>
+           
+                    <ul>
+                        <li className={Style.quizNav}>Quiz</li>
+                        <li className={Style.blogNav}>Blog</li>
+                        <li className={Style.glowingProducts}>Glowing Products</li>
 
                     </ul>
+
+                   
+                  
 
                 
             </header> 
