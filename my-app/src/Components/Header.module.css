@@ -7,6 +7,9 @@
 
 .header {
 position: fixed;
+width:100%;
+
+
 
 
 }
@@ -19,11 +22,13 @@ background-color: blueviolet;
 }
 
 .logo {
- position: absolute;
+ position: fixed;
   transform:scale(0.5);
   margin:0;
   display: inline-block;
   z-index: 2;
+  left:-3%;
+  top:-35%;
   
 
 
@@ -32,14 +37,15 @@ background-color: blueviolet;
 
 .headerButtons {
    width: 75%;
-   margin-right: 25%;
    float:right;
+   margin-top:2%;
 }
 
 ul li {
     padding: 20px;
     display: inline-block;
-    
-    margin-left: 25%;
+    margin-left: 12%;
+    text-align: center;
+    font-size:2rem;
 }
 
