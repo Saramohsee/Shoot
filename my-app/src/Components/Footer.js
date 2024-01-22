@@ -6,7 +6,7 @@ function Footer () {
 
     return (    
         <footer>
-            <div>
+            <div className={Style.Footer}>
                <Link to='/'>
               <h1 className={Style.logo} id={Style.your}>
               YOUR 

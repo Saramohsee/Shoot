@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import Quiz from './Pages/Quiz';
 import Products from './Pages/Products';
 import LandingPage from './Pages/LandingPage';
+import Blog from './Pages/Blog';
 import Header from './Components/Header';
 
 
@@ -18,6 +19,7 @@ function App() {
       <Route path="/" element={<Home />}/>
       <Route path="/quiz" element={<Quiz />} />
       <Route path="/products" element={<Products />} />
+      <Route path='/blog' element={<Blog/>}/>
       <Route path="/landingPage" element={<LandingPage />} />
     </Routes>
     <Footer />

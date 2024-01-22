@@ -1,3 +1,10 @@
-body {
-    background-image:src('../leafBackground.jpg');
+.landingPage {
+    background: linear-gradient(220deg, ivory 0%, #d4d78a 75%, #D6ACA8 100%);
+    text-align: center;
+    background-position-x: center;
+    background-size:cover;
+    background-position-y:45%;
+    position: relative;
+    z-index: 1;
+    height:100vh;
 }

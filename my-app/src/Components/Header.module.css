@@ -6,30 +6,28 @@
 
 
 .header {
-position: fixed;
+position:absolute;
+height: 100px;
 width:100%;
 border-radius: 10px;
 background-color: ivory;
 z-index:10;
 
 
-}
-
-
-.headerElements  {
-
-
 
 }
+
+
+
 
 .logo {
- position: fixed;
+ position:absolute;
   transform:scale(0.5);
   margin:0;
   display: inline-block;
-  z-index: 11;
+  z-index: 11;    
   left:-3%;
-  top:-35%;
+  top:-100%;
   
 
 
@@ -44,11 +42,13 @@ z-index:10;
 }
 
 ul li {
+    display: absolute;
     padding: 20px;
     display: inline-block;
     margin-left: 12%;
     text-align: center;
     font-size:1.5rem;
     font-weight: 500;
+    color: #505050;
 }
 

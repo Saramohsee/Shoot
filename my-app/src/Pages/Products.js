@@ -1,15 +1,12 @@
 import React from "react";
-import style from './Products.module.css';
-import Header from '../Components/Header';
+import Style from './Products.module.css';
 
 export default function Products() {
     return (
-        <div>
-        <Header></Header>
+        <div className={Style.Products}>
+       
     
-            <div> 
-                <h1>products page</h1>
-            </div>
+        
     
         </div>
     )

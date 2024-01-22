@@ -1,5 +1,5 @@
-.Products {
-    background-image: url('../Images/palmBackground.jpg');
+.blog {
+    background: linear-gradient(230deg, ivory 25%, #d4d78a 50%, #D6ACA8 75%);
     text-align: center;
     background-position-x: center;
     background-size:cover;
@@ -7,5 +7,4 @@
     position: relative;
     z-index: 1;
     height:100vh;
-
 }

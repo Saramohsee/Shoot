@@ -4,8 +4,8 @@ import Header from "../Components/Header";
 
 export default function Quiz () {
     return (
-        <div>
-            <Header></Header>
+        <div className={Style.Quiz}>
+           
             <h1 className={Style.quizTitle}>Skin Care Quiz</h1>
         </div>
     )
