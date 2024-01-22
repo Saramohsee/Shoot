@@ -1,13 +1,44 @@
 
 
  .home {
-background-image: url('../Images/palmBackground.jpg');
-text-align: center;
-background-position-x: center;
-background-size:cover;
-background-position-y:45%;
-position: relative;
-z-index: 1;
-height:100vh;
+    background-image: url('../Images/palmBackground.jpg');
+    text-align: center;
+    background-position-x: center;
+    background-size:cover;
+    background-position-y:50%;
+    position: relative;
+    z-index: 1;
+    height:150vh;
+    overflow: scroll;
 };
 
+.eyePic {
+    height: 30%;
+    width:auto;
+    z-index:2;
+}
+
+.collegen {
+    top:40%;
+    width:450px;
+    height: 350px;
+    float:right;
+    margin:15% 10% 0% 0%;
+    background-color: #d4d78a ;
+    border-radius: 30px;
+}
+
+.collegen h1 {
+    padding-top:5%;
+    letter-spacing:5px;
+    text-transform: capitalize;
+    color: ivory;
+}
+
+.collegen h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight:50px;
+    font-style: normal;
+    padding-top: 2%;
+    letter-spacing: 3px;
+}

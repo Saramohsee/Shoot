@@ -1,13 +1,13 @@
 
 body {
-  overflow: hidden;
+  overflow: scroll;
   z-index:7;
 
 }
 
 .Footer {
   z-index: 7;
-  top: 93vh;
+  top: 130vh;
   position: absolute;
 }
 
@@ -39,5 +39,6 @@ body {
  position: absolute;
 
  background-color: transparent;
+
 
 }
