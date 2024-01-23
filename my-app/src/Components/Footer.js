@@ -4,10 +4,13 @@ import {Link} from 'react-router-dom'
 function Footer () {
     
 
-    return (    
-        <footer>
-            <div className={Style.Footer}>
+    return (   
+        <div>
+        <h4 className={Style.logo} id={Style.brought}>Brought to you buy</h4> 
+        <footer className={Style.Footer}>
+            
                <Link to='/'>
+                
               <h1 className={Style.logo} id={Style.your}>
               YOUR 
               </h1>
@@ -16,8 +19,9 @@ function Footer () {
               </h1>
 
                </Link> 
-            </div>
+           
         </footer>
+        </div>
     );
 };
 

@@ -9,14 +9,26 @@ body {
   z-index: 7;
   top: 130vh;
   position: absolute;
+  letter-spacing: 2px;
+}
+
+#brought {
+  color: ivory;
+  display: inline-block;
+  position: absolute;
+  left: 155vh;
+  top:125vh;
+  z-index: 8;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 
 
 #your {
-  color: white;
+  color:ivory;
   display: inline-block;
   position: relative;
-  left: 160vh;
+  left: 155vh;
   }
   
   #GLOWING {
@@ -31,13 +43,13 @@ body {
         0 0 102px #D4D78A,
         0 0 151px  #D4D78A;
     display: inline-block;
-    left: 161vh;
+    left: 156vh;
     position: relative;
   }
 
+
 .logo {
  position: absolute;
-
  background-color: transparent;
 
 

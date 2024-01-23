@@ -54,5 +54,6 @@ ul li {
     font-size:1.5rem;
     font-weight: 500;
     color: #505050;
+    flex: 1 1 100px;
 }
 
