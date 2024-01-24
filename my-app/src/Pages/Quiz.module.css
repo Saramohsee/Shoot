@@ -14,4 +14,21 @@
 
 .quizTitle {
     color: blue;
+    position: relative;
+    top:20%;
+    font-size: 4rem;
+}
+
+.buttons {
+    position: relative;
+    top: 30%;
+   
+
+}
+
+.quizQuestion {
+    position: relative;
+    color: black;
+    top: 25%;
+    font-size: 1.5rem;
 }
