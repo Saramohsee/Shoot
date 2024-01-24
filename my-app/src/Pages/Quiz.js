@@ -17,33 +17,19 @@ const questions = [
 },
 ]
 
-
-
-
-
 export default function Quiz () {
 
     return (
-
         <div className={Style.Quiz}>
-           
             <h1 className={Style.quizTitle}>What animal am I?</h1>
-
             <h2 className={Style.quizQuestion}>What habitat do you want to live in?</h2>
-
             <div className={Style.buttons}>
                 <Button className={ButtonStyle.quizButton}>option 1</Button>
-
                 <Button className={ButtonStyle.quizButton}>option 2</Button>
-
                 <Button className={ButtonStyle.quizButton}>option 3</Button>
-
                 <Button className={ButtonStyle.quizButton}>option 4</Button>
-
                 <Button className={ButtonStyle.quizButton}>option 5</Button>
-
             </div>
-            
         </div>
     )
 };
