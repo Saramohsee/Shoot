@@ -1,8 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import Style from  "./Quiz.module.css";
 import Header from "../Components/Header";
 import Button from "../Components/Button";
 import ButtonStyle from "../Components/Button.module.css";
+
 
 
 const questions = [
@@ -37,16 +38,23 @@ const questions = [
 
 export default function Quiz () {
 
+    const [currentQuestion, setCurrentQuestion] = useState(0);
+    const [quizCompleted, setQuizCompleted] = useState(false);
+    const handleNextQuestion = () => {
+        if (currentQuestion < questions.length - 1) {
+            setCurrentQuestion(currentQuestion + 1);
+            
+        } else {
+            setQuizCompleted(true);
+        }
+    }
+
     return (
         <div className={Style.Quiz}>
             <h1 className={Style.quizTitle}>What animal am I?</h1>
-            <h2 className={Style.quizQuestion}>What habitat do you want to live in?</h2>
+            <h2 className={Style.quizQuestion}>{}</h2>
             <div className={Style.buttons}>
                 <Button className={ButtonStyle.quizButton}>{questions.options[1]}</Button>
-                <Button className={ButtonStyle.quizButton}>{questions.options[2]}</Button>
-                <Button className={ButtonStyle.quizButton}>{questions.options[3]}</Button>
-                <Button className={ButtonStyle.quizButton}>{questions.options[4]}</Button>
-                <Button className={ButtonStyle.quizButton}>{questions.options[5]}</Button>
             </div>
         </div>
     )
