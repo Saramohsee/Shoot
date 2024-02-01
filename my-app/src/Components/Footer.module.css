@@ -6,10 +6,13 @@ body {
 }
 
 .Footer {
+  margin-right: 50%;
+  display: flex;
   z-index: 7;
   top: 130vh;
   position: absolute;
   letter-spacing: 2px;
+  align-items: end;
 }
 
 #brought {

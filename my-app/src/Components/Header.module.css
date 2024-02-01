@@ -6,6 +6,7 @@
 
 
 .header {
+
 position:absolute;
 height: 100px;
 width:100%;
@@ -42,11 +43,12 @@ z-index:10;
    width: 75%;
    float:right;
    margin:1% 0%;
+   
 
 }
 
 ul li {
-    display: absolute;
+    display: flex;
     padding: 20px;
     display: inline-block;
     margin-left: 12%;
@@ -55,5 +57,13 @@ ul li {
     font-weight: 500;
     color: #505050;
     flex: 1 1 100px;
+    transition: color 350ms ease 10ms;
+    
+   
+}
+
+ul li:hover {
+    color:#d4d78aCC;
+    
 }
 
