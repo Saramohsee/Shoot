@@ -35,6 +35,7 @@ export default function Quiz () {
 
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [quizCompleted, setQuizCompleted] = useState(false);
+    const [shuffledOptions, setShuffledOptions] = useState([]);
     const handleNextQuestion = () => {
         if (currentQuestion < questions.length - 1) {
             setCurrentQuestion(currentQuestion + 1);
