@@ -44,6 +44,15 @@ export default function Quiz () {
             setQuizCompleted(true);
         }
     }
+    const shuffleOptions = () => {
+        const options = questions[currentQuestion].options.slice(); // Create a copy of options array
+        for (let i = options.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [options[i], options[j]] = [options[j], options[i]]; // Swap elements to shuffle
+        }
+       
+      };
+
 
     return (
         <div className={Style.Quiz}>
