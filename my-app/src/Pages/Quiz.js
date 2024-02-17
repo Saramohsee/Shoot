@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import Style from  "./Quiz.module.css";
 import Header from "../Components/Header";
 import Button from "../Components/Button";
@@ -50,8 +50,13 @@ export default function Quiz () {
           const j = Math.floor(Math.random() * (i + 1));
           [options[i], options[j]] = [options[j], options[i]]; // Swap elements to shuffle
         }
-       
-      };
+        
+       setShuffledOptions(options);
+    }
+       useEffect(() => {
+        shuffleOptions();
+      }, [currentQuestion]
+      );
 
 
     return (

@@ -4,6 +4,7 @@ import Style from './Home.module.css';
 import Header from '../Components/Header';
 import Input from '../Components/Input';
 import Footer from '../Components/Footer';
+import eye from '../Images/eye.jpg';
 
 
 export default function Home () {
@@ -12,7 +13,7 @@ export default function Home () {
         <div className={Style.home}>
             <img 
             className={Style.eyePic}
-            url='../images/eye.jpg'
+            src={eye}
             alt='eye'
             />
             <div className={Style.collegen}>

@@ -13,9 +13,8 @@
 };
 
 .eyePic {
-    height: 30%;
-    width:auto;
-    z-index:2;
+    margin-top: 300px;
+    z-index:1;
 }
 
 .collegen {
@@ -24,7 +23,7 @@
     height: 400px;
     float:right;
     margin:15% 2.25% 0% 0%;
-    background-color: #d4d78aCC ;
+    background-color: #fffff0CC ;
     border-radius: 30px;
     justify-content: space-between;
 }
