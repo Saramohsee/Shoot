@@ -1,6 +1,8 @@
 
 
  .home {
+    display: flex;
+
     background-image: url('../Images/palmBackground.jpg');
     text-align: center;
     background-position-x: center;
@@ -13,17 +15,22 @@
 };
 
 .eyePic {
+    width: 5rem;
+    height: 20rem;
     margin-top: 300px;
     z-index:1;
 }
 
 .collegen {
+    display: flex;
+   box-shadow: 0px 0px 50px rgba(186, 200, 138, 1);
+    flex-wrap: wrap;
+    margin: 30% 10% 0% 10%;
     top:40%;
     width:600px;
     height: 400px;
     float:right;
-    margin:15% 2.25% 0% 0%;
-    background-color: #fffff0CC ;
+    background-color: #BAC88ACC ;
     border-radius: 30px;
     justify-content: space-between;
 }
@@ -35,7 +42,7 @@
     text-transform: capitalize;
     color: ivory;
     float:left;
-   
+
 }
 
 .collegen h2 {
@@ -46,5 +53,6 @@
     padding: 2% 0% 0% 7%;
     letter-spacing: 3px;
     float:left;
+    height: fit-content;
     
 }

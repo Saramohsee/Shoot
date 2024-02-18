@@ -13,6 +13,7 @@ body {
   position: absolute;
   letter-spacing: 2px;
   align-items: end;
+  flex: 1 1 130px;
 }
 
 #brought {

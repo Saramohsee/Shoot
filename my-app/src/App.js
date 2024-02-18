@@ -7,13 +7,14 @@ import Products from './Pages/Products';
 import LandingPage from './Pages/LandingPage';
 import Blog from './Pages/Blog';
 import Header from './Components/Header';
-
+import ScrollBar from './Components/ScrollBar';
 
  
 function App() {
 
  return (
     <div className='App'>
+    <ScrollBar/>
     <Header/>
     <Routes>
       <Route path="/" element={<Home />}/>
@@ -23,6 +24,7 @@ function App() {
       <Route path="/landingPage" element={<LandingPage />} />
     </Routes>
     <Footer />
+    
   </div>
   );
 }
