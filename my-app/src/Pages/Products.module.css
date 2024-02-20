@@ -7,5 +7,80 @@
     position: relative;
     z-index: 1;
     height:140vh;
+    display: grid;
 
+
+}
+
+.skinProblems {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:  5rem 20rem ;
+    z-index: 3;
+    padding: 10rem 5rem 0rem 5rem;
+    justify-content: center;
+    
+    
+
+}
+
+.skinTitle {
+    grid-area: 1 / 1 / 1 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.dry,
+ .oily, 
+ .pore {
+    display:flex;
+    background-color: #fffff0;
+    grid-area: span 1 ;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    box-shadow: 0px 0px 20px rgba(225, 225, 240, 1);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 20rem;
+    z-index:5;
+}
+
+.box {
+    background-color: #fffff0;
+    border-radius: 20px;
+}
+
+.skinImg {
+    height:12rem;
+    width:fit-content;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    color: #505050;
+    background-color: #fffff0;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin-top: 1.5rem;
+}
+
+.arrowImg {
+    width: 2rem;
+    height: fit-content;
+    margin-left: 2rem;
+    
+}
+
+.arrowImg:hover {
+    transform: rotate(90deg);
 }
