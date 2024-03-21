@@ -19,7 +19,7 @@ export default function Products() {
     const classPore = `${Style.box} ${Style.pore}`;
     const classOily = `${Style.box} ${Style.oily}`;
 
-    const classSolutions = `${Style.box} ${Style.Solution}`; // classes
+    const classSolutions = `${Style.box} ${Style.solution}`; // classes
    
    
     return (
@@ -37,7 +37,12 @@ export default function Products() {
             alt='dryImg'
             />  
             <button onClick={() => setDryVisible(!dryVisible)}>
-            <h2>Dry Skin</h2>                                         
+            <h2>Dry Skin</h2>    
+            <img 
+           src={arrowImg}
+           alt='arrowImg'
+           className={Style.arrowImg}
+           />                                   
             </button>                                               
       </div>
 
@@ -50,6 +55,11 @@ export default function Products() {
             />  
             <button onClick={() => setPoreVisible(!poreVisible)}>
             <h2>Pores</h2> 
+            <img 
+           src={arrowImg}
+           alt='arrowImg'
+           className={Style.arrowImg}
+           />
             </button>
       </div>
 
@@ -61,7 +71,8 @@ export default function Products() {
             alt='oilyImg'
             />  
             <button onClick={() => setOilyVisible(!oilyVisible)}>
-           <h2>Oily Skin</h2> <img 
+           <h2>Oily Skin</h2> 
+           <img 
            src={arrowImg}
            alt='arrowImg'
            className={Style.arrowImg}
@@ -74,9 +85,9 @@ export default function Products() {
         </div>
         {dryVisible && (
         <div className={Style.gridcontainer}>
-         <div className={classSolutions}> <h1>it dry</h1></div>
-         <div className={classSolutions}> </div>
-         <div className={Style.box}> </div>
+         <div className={classSolutions}> <h1>Product 1</h1></div>
+         <div className={classSolutions}> Product 2</div>
+         <div className={Style.box}> Product 3</div>
         </div>
       )}
 
