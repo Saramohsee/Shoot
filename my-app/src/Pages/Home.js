@@ -19,7 +19,7 @@ export default function Home () {
             <div className={Style.collegen}>
             <h1>COLLOGEN</h1>
             <h2>your glowing skin solution</h2>
-            <button>Shop Now --> </button>
+            <button>Shop Now -- </button>
             </div>
             
           
